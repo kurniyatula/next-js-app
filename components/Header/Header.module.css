@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    padding: 8px 20px;
+    box-shadow: 3px 3px 11px 3px rgb(0 0 0 / 32%);
+    background-color: #DDC7B1;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.item {
+    margin: 0 16px;
+}
+
+@media only screen and (max-width: 560px) {
+    .list {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .item {
+        margin: 4px 0;
+        font-weight: bold;
+    }
+}

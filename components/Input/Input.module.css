@@ -1,0 +1,18 @@
+.label {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.input-form {
+    width: 100%;
+    min-width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #F3F1F1;
+    border-radius: 7px;
+    font-family: Poppins;
+    margin-bottom: 1em;
+    padding: 0.25em 0.5em;
+}

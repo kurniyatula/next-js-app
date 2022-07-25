@@ -1,0 +1,44 @@
+
+
+.content-container {
+    padding-top: 30px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.detail-title, .image-container {
+    text-align: center;
+}
+
+.comment-container {
+    width: 900px;
+    margin: 20px auto;
+    box-shadow:  rgb(0 0 0 / 15%) 0px 2px 8px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.comment {
+    margin-bottom: 25px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.comment-name {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.comment-email {
+    color: #bbb;
+    font-size: 10px;
+}
+
+.comment-body {
+    margin: 10px 0;
+}

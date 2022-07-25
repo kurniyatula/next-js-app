@@ -1,0 +1,59 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.list-container {
+    width: 100%;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.status {
+    color: #bbb;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.email, .gender {
+    margin: 8px 0;
+}
+
+.email {
+    text-decoration: underline;
+    color: #0077b6;
+    cursor: pointer;
+}
+
+.btn-user {
+    font-family: Poppins;
+    height: 40px;
+    width: 80px;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 5px 20px;
+    background: linear-gradient(90deg, #e9c46a 0%, #f4a261 100%);
+}
+
+@media only screen and (max-width: 560px) {
+    .btn-user {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
